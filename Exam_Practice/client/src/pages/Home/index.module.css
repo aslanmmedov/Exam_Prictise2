@@ -1,0 +1,383 @@
+.heroBanner {
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.1rem;
+    
+}
+
+.heroBanner h2 {
+    font-size: 2rem;
+}
+
+.heroBanner p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.heroBanner button {
+    font-size: 1.3rem;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 150px;
+    border: none;
+    background-color: #5A50E5;
+    color: white;
+    border-radius: 5px;
+    padding:0.5rem 1rem;
+}
+
+.cardImage img {
+    width: 100%;
+}
+
+.cardImage {
+    width: 100%;
+    padding: 1rem;
+}
+.infoCards{
+    margin-top:3rem;
+    display:flex;
+}
+.infoCard span{
+    font-size: 3rem;
+    color:#5A50E5;
+    opacity:0.8;
+}
+.infoCard h4{
+    font-size: 1.4rem;
+    opacity:0.8;
+    font-weight: 400;
+}
+.infoCard p{
+    font-size: 1rem;
+    opacity:0.8;
+    font-weight: 400;
+}
+.collectionCards{
+    display:flex;
+    padding:3rem 0;
+    width:100%;
+    color:rgb(85, 85, 85);
+}
+.collectionCard1{
+    width:100%;
+    height:500px;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/women.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:1rem 1.5rem;
+    display:flex;
+    justify-content: end;
+    flex-direction: column;
+    transition: 0.6s;
+    
+}
+.collectionCard1:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.collectionCard2{
+    width:100%;
+    height:500px;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/children.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:1rem 1.5rem;
+    display:flex;
+    justify-content: end;
+    flex-direction: column;
+    transition: 0.6s;
+}
+.collectionCard2:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.collectionCard3{
+    width:100%;
+    height:500px;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/men.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:1rem 1.5rem;
+    display:flex;
+    justify-content: end;
+    flex-direction: column;
+    transition: 0.6s;
+}
+.collectionCard3:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.gray{
+    background-color: #F8F9FA;
+}
+.cardImage img {
+    width: 100%;
+}
+
+.cardImage {
+    width: 100%;
+    padding: 1rem;
+}
+.head h2{
+    text-align: center;
+    padding-top:2rem;
+}
+.dynamicCard{
+    display:flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cardTitle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btns{
+    display: flex;
+    gap:1rem;
+    padding-bottom:1rem;
+}
+.btns button{
+    padding:0.5rem 0.8rem;
+    border: none;
+    border-radius: 10px;
+    background-color:#7976ac;
+    color:white;
+    text-align: center;
+}
+.bigSalesHead{
+    width:100%;
+    margin-top:1rem;
+}
+.bigSalesHead img{
+    width:100%;
+}
+.bigSalesBody{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:1rem;
+    padding:1rem;
+}
+.bigSalesBody button {
+    font-size: 1.3rem;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 150px;
+    border: none;
+    background-color: #5A50E5;
+    color: white;
+    border-radius: 5px;
+    padding:0.5rem 1rem;
+}
+.bigSalesBody h2{
+    color:#8480c4;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.bigSalesBody p{
+    opacity: 0.7;
+    font-weight: 300;
+}
+@media only screen and (max-width:767px) {
+    .heroBanner {
+        background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+        text-align: center;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1.1rem;
+        
+    }
+    
+    .heroBanner h2 {
+        font-size: 2rem;
+    }
+    
+    .heroBanner p {
+        font-size: 1.3rem;
+        font-weight: 300;
+        opacity: 0.7;
+    }
+    
+    .heroBanner button {
+        font-size: 1.3rem;
+        font-weight: 300;
+        opacity: 0.7;
+        width: 150px;
+        border: none;
+        background-color: #5A50E5;
+        color: white;
+        border-radius: 5px;
+        padding:0.5rem 1rem;
+    }
+    .infoCards{
+        margin-top:3rem;
+        display:flex;
+        flex-direction: column;
+    }
+    .infoCard span{
+        font-size: 3rem;
+        color:#5A50E5;
+        opacity:0.8;
+    }
+    .infoCard h4{
+        font-size: 1.4rem;
+        opacity:0.8;
+        font-weight: 400;
+    }
+    .infoCard p{
+        font-size: 1rem;
+        opacity:0.8;
+        font-weight: 400;
+    }
+
+
+    .collectionCards{
+        padding:3rem 0;
+        width:100%;
+        color:rgb(85, 85, 85);
+        display:flex;
+        flex-direction: column;
+    }
+    .collectionCard1{
+        width:100%;
+        height:500px;
+        background-image: url(https://preview.colorlib.com/theme/shoppers/images/women.jpg);
+        background-position: center;
+        background-size: cover;
+        padding:1rem 1.5rem;
+        display:flex;
+        justify-content: end;
+        flex-direction: column;
+        transition: 0.6s;
+        
+    }
+    .collectionCard1:hover{
+        overflow: hidden;
+        transform: scale(1.1);
+    }
+    .collectionCard2{
+        width:100%;
+        height:500px;
+        background-image: url(https://preview.colorlib.com/theme/shoppers/images/children.jpg);
+        background-position: center;
+        background-size: cover;
+        padding:1rem 1.5rem;
+        display:flex;
+        justify-content: end;
+        flex-direction: column;
+        transition: 0.6s;
+    }
+    .collectionCard2:hover{
+        overflow: hidden;
+        transform: scale(1.1);
+    }
+    .collectionCard3{
+        width:100%;
+        height:500px;
+        background-image: url(https://preview.colorlib.com/theme/shoppers/images/men.jpg);
+        background-position: center;
+        background-size: cover;
+        padding:1rem 1.5rem;
+        display:flex;
+        justify-content: end;
+        flex-direction: column;
+        transition: 0.6s;
+    }
+    .collectionCard3:hover{
+        overflow: hidden;
+        transform: scale(1.1);
+    }
+    .gray{
+        background-color: #F8F9FA;
+    }
+    .cardImage img {
+        width: 100%;
+    }
+    
+    .cardImage {
+        width: 100%;
+        padding: 1rem;
+    }
+    .head h2{
+        text-align: center;
+        padding-top:2rem;
+    }
+    .dynamicCard{
+        display:flex;
+        flex-direction: column;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .cardTitle{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btns{
+        display: flex;
+        gap:1rem;
+        padding-bottom:1rem;
+    }
+    .btns button{
+        padding:0.5rem 0.8rem;
+        border: none;
+        border-radius: 10px;
+        background-color:#7976ac;
+        color:white;
+        text-align: center;
+    }
+    .bigSalesHead{
+        width:100%;
+        margin-top:1rem;
+    }
+    .bigSalesHead img{
+        width:100%;
+    }
+    .bigSalesBody{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap:1rem;
+        padding:1rem;
+    }
+    .bigSalesBody button {
+        font-size: 1.3rem;
+        font-weight: 300;
+        opacity: 0.7;
+        width: 150px;
+        border: none;
+        background-color: #5A50E5;
+        color: white;
+        border-radius: 5px;
+        padding:0.5rem 1rem;
+    }
+    .bigSalesBody h2{
+        color:#8480c4;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .bigSalesBody p{
+        opacity: 0.7;
+        font-weight: 300;
+    }
+}

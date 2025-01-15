@@ -1,0 +1,79 @@
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.logo h3{
+    font-family: "Mukta", serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 4px;
+    border: 2px solid rgb(88, 88, 88);
+    width:130px;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    
+}
+.search input{
+    border:none;  
+}
+.routes ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    color:rgb(88, 88, 88);
+    font-size: 1.2rem;
+}
+.routes ul li a{
+    color:rgb(88, 88, 88);
+    text-decoration: none;
+}
+.pages{
+    display:none;
+}
+
+@media only screen and (max-width:767px) {
+    .logo{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .logo h3{
+        font-family: "Mukta", serif;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 4px;
+        border: 2px solid rgb(88, 88, 88);
+        width:130px;
+    }
+    .search{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        
+    }
+    .search input{
+        border:none;  
+    }
+    .routes ul{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        color:rgb(88, 88, 88);
+        font-size: 1.2rem;
+    }
+    .routes ul li a{
+        color:rgb(88, 88, 88);
+        text-decoration: none;
+    }
+    .pages{
+        display:none;
+    }
+}
